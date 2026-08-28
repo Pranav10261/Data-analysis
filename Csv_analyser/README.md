@@ -1,39 +1,46 @@
 # CSV Analyser
 
-A Python tool for analyzing and summarizing data from CSV files.
+A Streamlit web app for quickly analyzing and visualizing any CSV file — no spreadsheet tool required.
 
 ## Overview
-This script reads a CSV file and performs analysis such as summary statistics, filtering, or data quality checks, making it easy to quickly understand a dataset without opening a spreadsheet tool.
+Upload a CSV and instantly get row/column counts, per-column data types and null counts, statistical summaries, and charts showing missing data, numeric distributions, and top categories in text columns.
 
 ## Tech Stack
 - Python
-- pandas *(update if you used a different library)*
+- Streamlit
+- pandas
+- Matplotlib
 
 ## Features
-- Load and parse CSV files
-- Generate summary statistics (mean, count, min/max, etc.)
-- Handle missing/invalid data
-- *(Add any other specific features your script has)*
+- Drag-and-drop CSV upload (up to 200 MB), with friendly errors for unreadable or empty files
+- Quick overview: total rows, total columns, total null values
+- Per-column breakdown of data types and null counts
+- Statistical summary (count, mean, min, max) for numeric columns
+- Bar chart of null values per column
+- Distribution charts for each numeric column
+- Top 5 category breakdown for each text column
 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python csv_analyser.py
+streamlit run csv_analyser.py
 ```
 
-## Example
-```bash
-python csv_analyser.py --file data.csv
-```
-*(Update with your script's actual usage/arguments)*
+Then open the local URL Streamlit prints in your terminal, and upload a CSV file (or use the included `sample_data.csv`) to see the analysis.
+
+## Screenshots
+![Before upload](images/csv1.png)
+![After upload](images/After%20upload.gif)
 
 ## Project Structure
 ```
 csv_analyser/
 ├── csv_analyser.py
-├── sample_data.csv   # optional sample input
+├── sample_data.csv
+├── requirements.txt
 └── README.md
 ```
 
 ## Author
 Pranav K — [Pranav10261](https://github.com/Pranav10261)
+
