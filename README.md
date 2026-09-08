@@ -8,7 +8,7 @@ Each project lives in its own subfolder with its own notebook/script, data file,
 
 | Project | Description | Stack |
 |---|---|---|
-| `sales/` | Exploratory analysis of a sales dataset — trends, revenue breakdowns, and key business metrics visualized. | Pyhton, pandas, Sql, Power Bi |
+| `sales/` | Exploratory analysis of a sales dataset — trends, revenue breakdowns, and key business metrics visualized. | Python, pandas, Sql, Power Bi |
 | `Pokemon_datachart/` | Data visualization and charting on a Pokémon stats dataset — comparing types, stats distributions, and other patterns. | pandas, matplotlib |
 | `IBM/` | Analysis of the IBM HR Employee Attrition dataset — exploring factors related to employee attrition and satisfaction. | Power Bi |
 
