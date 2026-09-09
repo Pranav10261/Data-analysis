@@ -1,4 +1,4 @@
-# Data_analysis
+# Data-analysis
 
 A collection of data analysis and visualization projects, each exploring a different dataset — from exploratory data analysis (EDA) to charts and insights built with Python's data science stack.
 
