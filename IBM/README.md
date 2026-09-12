@@ -55,7 +55,9 @@ This project explores what drives employee attrition — department, job role, o
 ## Project Structure
 ```
 IBM/
+├── images/
 ├── IBM.pbix
+├── IBMEmployee_data.csv
 └── README.md
 ```
 
