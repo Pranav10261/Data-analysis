@@ -27,13 +27,15 @@ Raw order data is loaded into MySQL, cleaned with Python (mixed date formats sta
 ## Project Structure
 ```
 sales/
-├── sales.py            # Loads superstoreorders, fixes date columns, writes superstore_cleaned
-├── sales.sql           # Aggregation queries matching each dashboard visual
-├── sales.pbix          # Power BI dashboard, connected to superstore_cleaned
-├── requirements.txt    # Python dependencies
-├── .env.example        # Template for DB credentials — copy to .env and fill in your own
-├── .gitignore          # Excludes .env, caches, and raw data from version control
-└── README.md
+├── images/
+├── .env.example          # Template for DB credentials — copy to .env and fill in your own
+├── .gitignore            # Excludes .env, caches, and raw data from version control
+├── README.md
+├── requirements.txt      # Python dependencies
+├── sales.pbix            # Power BI dashboard, connected to superstore_cleaned
+├── sales.py              # Loads superstoreorders, fixes date columns, writes superstore_cleaned
+├── sales.sql             # Aggregation queries matching each dashboard visual
+└── SuperStoreOrders.csv
 ```
 
 
