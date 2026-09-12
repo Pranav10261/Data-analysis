@@ -17,11 +17,11 @@ Raw order data is loaded into MySQL, cleaned with Python (mixed date formats sta
 *Raw data extraction, UTF-8 BOM correction, and datetime conversion executed via Pandas.*
 
 ### 2. Executive Overview Dashboard
-![Power BI Dashboard - Sales & Profit Overview](images/Bi1.png)
+![Power BI Dashboard - Sales & Profit Overview](images/BI1.png)
 *High-level KPIs, shipping cost analysis, and regional performance mapping.*
 
 ### 3. Category & Segment Detail Dashboard
-![Power BI Dashboard - Category & Segment Detail](images/Bi2.png)
+![Power BI Dashboard - Category & Segment Detail](images/BI2.png)
 *Deep dive into profit margins across specific customer segments, discount impacts, and top buyers.*
 
 ## Project Structure
